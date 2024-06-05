@@ -17,5 +17,11 @@ public class Task54NF {
         // Prompt the user to input the third number
         System.out.print("Input the third number: ");
         int z = sc.nextInt();
+
+        System.out.print("The result is: " + test_last_digit(x, y, z));
+    }
+
+    public static boolean test_last_digit(int p, int q, int r) {
+        return (p % 10 == q % 10) || (p % 10 == r % 10) || (q % 10 == r % 10);
     }
 }
