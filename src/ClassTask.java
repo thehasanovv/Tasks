@@ -19,7 +19,7 @@ public class ClassTask {
             for (int k = 0; k < i; k++) {
                 System.out.print("*");
             }
-            System.out.println(); // Her satırda bir sonraki satıra geç
+            System.out.println();
         }
     }
 }
