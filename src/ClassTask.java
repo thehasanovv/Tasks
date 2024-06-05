@@ -11,13 +11,13 @@ public class ClassTask {
         System.out.println("");
 
         // Task 2
-        int n = 7; // Satır sayısı
+        int n = 7;
         for (int i = 1; i <= n; i++) {
             for (int j = i; j < n; j++) {
-                System.out.print(" "); // Boşlukları yazdır
+                System.out.print(" ");
             }
             for (int k = 0; k < i; k++) {
-                System.out.print("*"); // Yıldızları yazdır
+                System.out.print("*");
             }
             System.out.println(); // Her satırda bir sonraki satıra geç
         }
