@@ -30,7 +30,6 @@ public class Main {
         family.addChild(child3);
 
         System.out.println("family before " + family);
-        boolean result = family.deleteChild(5);
 
         family.deleteChild(1);
         System.out.println("family after " + family);
