@@ -62,8 +62,9 @@ public class Collections {
                 .map(Map.Entry::getKey)
                 .collect(Collectors.joining(" "));
 
+        System.out.println(list);
 //        System.out.println("list2 = " + list2);
-//        System.out.println(a);
+        System.out.println(a);
 
         ArrayList<Integer> str = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
