@@ -1,12 +1,14 @@
 package classtasks;
 
 import java.util.*;
+import java.util.Collections;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class MapDemo {
     public static void main(String[] args) {
+
         String[] students = new String[]{"Elnur", "Elnur", "Rüstəm", "Rüstəm", "Arzu"};
         Set<String> collect = Arrays.asList(students)
                 .stream()

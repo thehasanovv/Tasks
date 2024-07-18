@@ -71,6 +71,5 @@ public class Collections {
             int random = (int) Math.round(Math.random() * 100);
             str.add(random);
         }
-
     }
 }
