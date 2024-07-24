@@ -1,10 +1,12 @@
 package classtasks.hashmap;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static classtasks.hashmap.Util.contacts;
 
 public class Main {
+
     public static void main(String[] args) {
 
         ContactApp contactApp = new ContactApp(contacts);
