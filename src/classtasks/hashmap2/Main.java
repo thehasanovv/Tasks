@@ -5,9 +5,9 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        String line = "AZERBAIJAN";
+        String country = "AZERBAIJAN";
 
-        Map<Character, Long> charCountMap = line.chars()
+        Map<Character, Long> charCountMap = country.chars()
                 .mapToObj(c -> (char) c)
                 .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
 
