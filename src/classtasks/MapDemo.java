@@ -33,6 +33,5 @@ public class MapDemo {
                 .collect(Collectors.toMap(i -> i + 1, names::get));
 
 //        namesMap.forEach((key, value) -> System.out.println(key + " " + value));
-//
     }
 }
